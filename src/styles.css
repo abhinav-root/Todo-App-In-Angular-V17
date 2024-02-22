@@ -16,5 +16,6 @@
 
 
 body {
-    background-color: var(--app-background-color);
+  background-color: var(--app-background-color);
+  padding: 1rem 2rem;
 }

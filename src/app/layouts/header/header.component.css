@@ -5,6 +5,11 @@
     font-weight: 800;
 }
 
+.main__header li {
+    list-style-type: none;
+}
+
 .logo__word__2 {
+    list-style-type: none;
     color: var(--primary-color);
 }

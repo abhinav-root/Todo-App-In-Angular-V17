@@ -1,0 +1,34 @@
+.todo_status {
+    border: .1rem solid var(--app-font-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    margin: 4rem 0;
+}
+
+.todo_status_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo_status_title_word1 {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.todo_status_title_word2 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    opacity: 70%;
+}
+
+.todo_status .todo_status_count {
+    padding: 2rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
